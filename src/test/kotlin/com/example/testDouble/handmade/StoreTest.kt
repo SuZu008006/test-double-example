@@ -25,7 +25,7 @@ class StoreTest {
         val store = StoreImpl(spyBackyard)
 
         // act
-        val expectedItemName = "hoge"
+        val expectedItemName = "eternal youth"
         store.searchItem(expectedItemName)
 
         // assert
