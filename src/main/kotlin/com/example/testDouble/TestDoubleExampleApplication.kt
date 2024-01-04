@@ -1,4 +1,4 @@
-package com.example.testdoubleexample
+package com.example.testDouble
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

@@ -1,4 +1,4 @@
-package com.example.testdoubleexample
+package com.example.testDouble.handmade
 
 interface Store {
     fun searchItem(itemName: String): String

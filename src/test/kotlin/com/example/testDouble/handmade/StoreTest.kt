@@ -1,4 +1,4 @@
-package com.example.testdoubleexample
+package com.example.testDouble.handmade
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.assertThrows
 
 class StoreTest {
     @Test
-    fun `dummyのテスト`() {
+    fun dummyTest() {
         // arrange
         val dummyBackyard = DummyBackyard()
         val store = StoreImpl(dummyBackyard)
@@ -19,7 +19,7 @@ class StoreTest {
     }
 
     @Test
-    fun `spyのテスト`() {
+    fun spyTest() {
         // arrange
         val spyBackyard = SpyBackyard()
         val store = StoreImpl(spyBackyard)
@@ -33,7 +33,7 @@ class StoreTest {
     }
 
     @Test
-    fun `stubのテスト`() {
+    fun stubTest() {
         // arrange
         val stubBackyard = StubBackyard()
         val expectedItemLocation = "area 13"
