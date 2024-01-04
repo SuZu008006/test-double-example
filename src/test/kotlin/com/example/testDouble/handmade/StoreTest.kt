@@ -14,7 +14,8 @@ class StoreTest {
         // assert
         assertThrows<RuntimeException> {
             // act
-            store.searchItem("")
+            val unusedArgumentValue = ""
+            store.searchItem(unusedArgumentValue)
         }
     }
 

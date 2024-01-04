@@ -25,9 +25,11 @@ class StoreTest {
             mockBackyard.findItem(any())
         } throws RuntimeException()
 
-        // act
+        // assert
         assertThrows<RuntimeException> {
-            store.searchItem("")
+            // act
+            val unusedArgumentValue = ""
+            store.searchItem(unusedArgumentValue)
         }
     }
 
